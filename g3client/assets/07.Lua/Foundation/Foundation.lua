@@ -1,0 +1,5 @@
+require 'Foundation.Defines'
+require 'Foundation.Class'
+require 'Foundation.Stack'
+require 'Foundation.Functions'
+require 'Foundation.Math'

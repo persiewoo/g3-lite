@@ -1,0 +1,62 @@
+---@class Config.Avatar
+---@field id int
+---@field name string
+---@field designName string
+---@field path string
+---@field dpath string
+---@field baseSpeed float
+---@field speedRatio float
+---@class Config.BattleMap
+---@field id int
+---@field name string
+---@field designName string
+---@field path string
+---@field upOffset float
+---@field downOffset float
+---@class Config.Character
+---@field id int
+---@field name string
+---@field designName string
+---@field type CharacterType
+---@field avatar int
+---@field genericAtk int
+---@field skills int
+---@field view float
+---@class Config.Dungeon
+---@field id int
+---@field name string
+---@field designName string
+---@field path string
+---@field mapName string
+---@class Config.LoadingType
+---@field id int
+---@field name string
+---@field designName string
+---@class Config.Skill
+---@field id int
+---@field name string
+---@field designName string
+---@field type SkillType
+---@field icon string
+---@field melee bool
+---@field atkType AttackType
+---@field passive bool
+---@field prepareAnim string
+---@field startAnim string
+---@field loopAnim string
+---@field endAnim string
+---@field spell int
+---@field bone string
+---@field boneOffset Vector2
+---@class Config.Spell
+---@field id int
+---@field name string
+---@field designName string
+---@field emitter EmitterType
+---@field bullet string
+---@class Config.ViewLayer
+---@field id int
+---@field name string
+---@field designName string
+---@field layer string
+---@field order int
